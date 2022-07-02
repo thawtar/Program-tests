@@ -3,9 +3,10 @@
 
 class test
 {
+   
+public:
     test();
     ~test();
-public:
     void run();
 };
 #endif

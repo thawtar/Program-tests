@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include "classTest.hpp"
 
 test::test()
 {
@@ -15,7 +16,7 @@ void test::run()
 {
     std::cout<<"Test running...\n";
     for(int i=0;i<1000;i++)
-    for(j=0;j<1000;j++)
-    std::cout<< sin(float(i))*cos(float(j));
+    for(int j=0;j<1000;j++)
+        std::cout<< sin(float(i))*cos(float(j));
     
 }

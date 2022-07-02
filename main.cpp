@@ -4,6 +4,6 @@
 int main()
 {
     test atest;
-    test.run();
+    atest.run();
   return 0;
 }
